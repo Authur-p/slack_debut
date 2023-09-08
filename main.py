@@ -21,8 +21,8 @@ def slack():
         'day_of_the_week': day,
         'current_utc': current_utc_time,
         'track': track,
-        'github_file_url': 'https://www.example.com',
-        'github_repo_url': 'https://www.example/repo.com',
+        'github_file_url': 'https://github.com/Authur-p/slack_debut/blob/main/main.py',
+        'github_repo_url': 'https://github.com/Authur-p/slack_debut/tree/main',
         'status': 200
     }), 200
 
