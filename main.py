@@ -15,7 +15,7 @@ def slack():
     the_utc = datetime.datetime.now(pytz.utc)
     offset_minutes = random.randint(-2, 2)
     offset_time = the_utc + datetime.timedelta(minutes=offset_minutes)
-    current_utc_time = offset_time.strftime('%Y-%m-%d %H:%M:%S UTC')
+    current_utc_time = offset_time.strftime('%Y-%m-%d %H:%M:%S')
     return jsonify({
         'slack_name': slack_name,
         'current_day': day,
