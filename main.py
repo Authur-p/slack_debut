@@ -4,6 +4,7 @@ import pytz
 import random
 
 app = Flask(__name__)
+app.config['JSON_SORT_KEYS'] = False
 
 @app.route('/api')
 def slack():
